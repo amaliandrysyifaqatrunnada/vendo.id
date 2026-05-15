@@ -305,7 +305,9 @@ export default function App() {
             <div className="hidden md:flex items-center gap-3">
               <Dialog open={loginOpen} onOpenChange={setLoginOpen}>
                 <DialogTrigger asChild>
-                  <Button variant="ghost" className="text-amber-900">Masuk</Button>
+                  <Button className="bg-gradient-to-r from-amber-600 to-orange-600 hover:from-amber-700 hover:to-orange-700 text-white shadow-lg shadow-amber-900/20">
+    Masuk
+  </Button>
                 </DialogTrigger>
                 <DialogContent className="sm:max-w-md">
                   <DialogHeader>
